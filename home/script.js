@@ -57,8 +57,6 @@ function init() {
 
 init();
 
-let gulpSound = new Audio("gulp.mp3");
-
 let appleColor = "red";
 let backgroundColor = "#402202";
 let snakeColor = "#3f87a6";
@@ -216,7 +214,6 @@ function checkAppleCollision() {
     appleY = Math.floor(Math.random() * tileCount);
     tailLength++;
     score++;
-    gulpSound.play();
   }
 }
 
